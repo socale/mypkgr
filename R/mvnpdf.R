@@ -52,6 +52,8 @@ mvnpdf <- function(x, mean =  rep(0, nrow(x)),
   if (!Log) {
     y <- exp(y)
   }
+  
+  #NUUUUUUUUUULLLLLLLLL
 
   return(list(x=x,y=y))
 }
