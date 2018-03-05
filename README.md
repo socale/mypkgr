@@ -3,7 +3,7 @@
 mypkgr
 ======
 
-The goal of mypkgr is to ...
+The goal of mypkgr is to ...Je modifie ton readme. tu e veux? SCL
 
 Installation
 ------------
