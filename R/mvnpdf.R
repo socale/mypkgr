@@ -48,7 +48,7 @@ mvnpdf <- function(x, mean =  rep(0, nrow(x)),
       0.5 * t(x0[, j]) %*% Rinv %*% x0[, j]
     y <- c(y, yj)
   }
-  # test
+
   if (!Log) {
     y <- exp(y)
   }
