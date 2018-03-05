@@ -36,7 +36,7 @@
 #' @examples
 mvnpdf <- function(x, mean =  rep(0, nrow(x)),
                    varcovM = diag(nrow(x)), Log = TRUE) {
-  n <- ncol(x)
+  n <- ncol(x) #blablablabla
   p <- nrow(x)
   x0 <- x - mean
   Rinv <- solve(varcovM)
@@ -48,7 +48,7 @@ mvnpdf <- function(x, mean =  rep(0, nrow(x)),
       0.5 * t(x0[, j]) %*% Rinv %*% x0[, j]
     y <- c(y, yj)
   }
-
+  # test
   if (!Log) {
     y <- exp(y)
   }
